@@ -13,8 +13,29 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
+    public static final class id {
+        public static final int update_progress=0x7f060000;
+    }
+    public static final class layout {
+        public static final int softupdate_progress=0x7f030000;
+    }
     public static final class string {
-        public static final int app_name=0x7f030000;
+        public static final int app_name=0x7f040000;
+        /**  版本更新 
+         */
+        public static final int check_version_dialog_message=0x7f040001;
+        public static final int check_version_dialog_message_new_ver=0x7f040004;
+        public static final int check_version_dialog_position_name=0x7f040005;
+        public static final int check_version_dialog_title=0x7f040003;
+        public static final int check_version_dialog_update_goto=0x7f040008;
+        public static final int check_version_dialog_update_message=0x7f040006;
+        public static final int check_version_dialog_update_message_add=0x7f040007;
+        public static final int check_version_dialog_update_negative=0x7f040009;
+        public static final int check_version_network_loading_fail=0x7f040002;
+        public static final int soft_version_update_fail=0x7f04000a;
+        public static final int soft_version_update_fail_cancel=0x7f04000d;
+        public static final int soft_version_update_fail_exit=0x7f04000c;
+        public static final int soft_version_update_fail_positive=0x7f04000b;
     }
     public static final class style {
         /** 
@@ -38,10 +59,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f050000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
+        public static final int AppTheme=0x7f050001;
     }
 }
